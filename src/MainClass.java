@@ -19,6 +19,7 @@ public class MainClass {
     public static void main(String[] args) {
 
         PyramidCSVDAO pDAO = new PyramidCSVDAO();
+        System.out.println("hello pyramids");
         //List<Pyramid> pyramids = pDAO.readPyramidsFromCSV("D:\\pyramids.csv");
         List<Pyramid> pyramids;
         pyramids = pDAO.readPyramidsFromCSV("E:\\ITI\\01_Development\\Java & UML Programming for AIs\\General\\Ghozia\\Day3\\Session 03 JUPAI3 File handling and data extraction\\pyramids.csv");
